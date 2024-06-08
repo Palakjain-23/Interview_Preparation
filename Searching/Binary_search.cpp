@@ -16,7 +16,8 @@ int Binary_search(int *arr,int l,int r,int key){
         }
              return Binary_search(arr,mid+1,r,key);
       }
-    }    
+    }   
+
 //-------Binary Search----Iterative
 //------TC-Best-0(log(n))
 //------SC-0(1)
