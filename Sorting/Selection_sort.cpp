@@ -1,14 +1,10 @@
-
 // ---------Selection Sort---------
 //----------TC-Best-0(n2)----------
-//----------TC-Best--0(n2)---------
 //InStable- donot retain order of same key of values
 //Inplace- no space required
-
 #include<iostream>
 using namespace std;
 void selection_sort(int *arr,int len) {
-   
     int j;
     for( int i=0 ; i<len-1 ; i++)
     {
@@ -23,7 +19,6 @@ void selection_sort(int *arr,int len) {
             swap(arr[min],arr[i]);
         }
     }
-   
     for(int i=0;i<len;i++){
         cout<<arr[i]<<" ";
     }

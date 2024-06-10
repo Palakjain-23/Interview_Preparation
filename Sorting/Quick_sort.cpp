@@ -1,7 +1,7 @@
 
 // ---------Quick Sort---------
 //----------TC-Best-0(nlogn)----------
-//----------TC-Best--0(n2)---------
+//----------TC-worst--0(n2)---------
 //InStable - retain order of same key of values
 // Inplace - No  space required
 
