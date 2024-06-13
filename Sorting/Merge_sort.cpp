@@ -1,9 +1,3 @@
-// ---------Merge Sort--------
-//----------TC-Best-0(nlogn)----------
-//----------TC-Best--0(n2)---------
-//----------SC-Best--0(n)-----------
-//Stable- retain order of same key of values
-//not Inplace- space required
 
 #include <iostream>
 using namespace std;
@@ -46,7 +40,7 @@ void merge(int *arr,int l,int mid,int r){
     }
     
 }
-void mergesort(int *arr,int l,int r){
+void mergesort(int *arr,int l,int r){ 
     if(l<r){
         int mid = l+(r-l)/2;
         mergesort(arr,l,mid);

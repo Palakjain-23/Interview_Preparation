@@ -1,16 +1,8 @@
-
-// ---------Insertion Sort---------
-//----------TC-Best-0(n)----------
-//----------TC-Best--0(n2)---------
-//Stable- retain order of same key of values
-//Inplace- no space required
-
 #include<iostream>
 using namespace std;
 void insertion_sort(int *arr,int len) {
    
-    for(int i=1;i<len;i++){
-        
+    for(int i=1;i<len;i++){     
         int j = i-1;
         int temp = arr[i];
         while( j>=0 && arr[j] > temp ){

@@ -6,7 +6,6 @@ class TestAbstraction {
     private: string x, y;
 
     public:
-
         // method to set values of 
         // private members
         void set(string a, string b) {

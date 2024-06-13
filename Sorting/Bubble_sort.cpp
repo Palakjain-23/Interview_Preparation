@@ -1,8 +1,3 @@
-// ---------Bubble Sort---------
-//----------TC-Best-0(n)----------
-//----------TC-Best--0(n2)---------
-//Stable- retain order of same key of values
-//Inplace- no space required
 
 
 #include<iostream>

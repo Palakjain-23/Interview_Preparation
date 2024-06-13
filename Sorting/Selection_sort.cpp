@@ -1,7 +1,3 @@
-// ---------Selection Sort---------
-//----------TC-Best-0(n2)----------
-//InStable- donot retain order of same key of values
-//Inplace- no space required
 #include<iostream>
 using namespace std;
 void selection_sort(int *arr,int len) {

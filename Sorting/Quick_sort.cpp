@@ -1,10 +1,3 @@
-
-// ---------Quick Sort---------
-//----------TC-Best-0(nlogn)----------
-//----------TC-worst--0(n2)---------
-//InStable - retain order of same key of values
-// Inplace - No  space required
-
 #include <iostream>
 using namespace std;
 
