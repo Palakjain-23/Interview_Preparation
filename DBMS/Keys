@@ -1,0 +1,22 @@
+!!!!!!!!!!!!!!!!--KEY--!!!!!!!!!!!!!!!!!!!!
+
+1.  KEY
+    It is defined as the set of attributes that uniquely identify the rows in table.
+
+2.  Types of Keys
+    
+    2.1 Primary Key
+        It is defined as the set of attributes that uniquely identify the row.
+        It cannot be Null.
+        It cannot contain Duplicate values.
+    example : Student rollno
+
+    2.2 Candidate Key
+        It is defined as the set of attributes other than the primary key
+        and they can become the primary key.
+
+    2.3 Alternate Key
+        It is defined as the set of attributes other than the Primary key.    
+
+    2.4 Foreign Key
+        It act as the primary key in one table and secondary key in another table.It combines two or more tables.

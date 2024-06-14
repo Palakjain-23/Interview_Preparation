@@ -1,0 +1,23 @@
+(((((((((((((---Normalization---)))))))))))))
+
+1.  Normalization
+    It is a process to eliminate data redundancy and ensure data integrity in the table
+
+2.  1NF
+    It ensure that element in the table are single valued and no multi-valued elements should exsist.
+
+3. 2NF 
+    For a table to be in 2nd normal form:
+        ~ It should be in first normal form and 
+        ~ No Partial Dependency( it means where an attribute depends only on a part of primary key ) 
+
+4. 3NF 
+    For a table to be in 2nd normal form:
+        ~ It should be in Second normal form and
+        ~ No tranistive Dependecy (It mean it a depends on b ,and b on c then c should be dependent on a and when a non prime attribute depend on other non-prime attributes other then prime attribute )
+
+5. BCNF
+    For a table to be in 2nd normal form:
+        ~ It should be in third normal form and
+        ~ every Right-Hand Side (RHS) attribute of the functional dependencies should depend on the super key of that particular table.
+        ~ It ensures that each non key attribute depends on candiate key        

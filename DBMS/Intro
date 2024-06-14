@@ -1,0 +1,41 @@
+~~~~~~~~~~~~~~~ D B M S ~~~~~~~~~~~~~~~~~~
+
+1.  DataBase
+    Group of interrelated record is called dataBase.
+
+2.  DataBase Management System
+    It is a sytem software that is used to mange store and retrieve data from dataBase.It allow user to create,modify and query a database.
+
+3. Feature of DataBase Management System
+   ~ Quick Access
+   ~ Reduce data redundancy
+   ~ Backup and Recovery
+   ~ Easy Maintenance
+
+4. Languages of DataBase Management System
+
+    4.1 Data Definition Language
+        It works on structure and schema of dataBase.
+        ~command : Create,Drop,Truncate,Alter   
+
+    4.2 Data Manipulation Language
+        It works with data manipulation and inlcude 
+        ~command : select,insert,update,delete
+
+    4.3 Data Control Language
+        It is used to grant or revoke the permissions to users in the database
+        ~command : Grant,Revoke
+
+    4.4 Tansancation Control Language 
+        It is used to manage all types of transaction data.
+        ~command : Commit,Rollback
+
+5.  ACID Properties
+
+    ~ Atomicity : It states that transaction either complete or donot complete  their is no midway.Transcation cannot occur partially.
+
+    ~ Consistent : Data should remain consistent before and after the transaction.     
+
+    ~ Isolation : It means that multiple transactions can occur concurrently without leading to inconsistency.
+
+    ~ Durability : It means that if transaction is completed and data is saved to the disk so data persists even if system failure occur.

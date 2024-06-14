@@ -1,0 +1,32 @@
+---------------[Graph]-----------------
+Is is a none linear data structure that consists of a set of edges and vertices.Vertices are sometime referred to as nodes and edges are line that connnectthem.
+
+Applications of Graph
+
+~ It can be used to represent a relationship between computer networks such as   routers and switches.
+~ It can be used to represent connection between different places in transportation netwok such as roads services.
+
+Types of Graph
+
+    1. Connected graph
+        a connected graph is a graph in which we can reach all nodes from one node.
+
+    2. DisConnected graph
+        a disconnected graph is a graph in which their is at least one node that is not reachable.
+
+    3. Directed graph
+        a directed graph is a graph in which each node has a direction.
+
+    4. UnDirected graph
+        a un-directed graph is a graph in which direction  of all nodes are not present.
+
+Representation of Graph Data Structure:
+~ There are two ways to store a graph:
+
+    ~~ Adjacency Matrix
+    ~~ Adjacency List
+
+            Adjacency Matrix	Adjacency List
+Adding Edge	        O(1)	            O(1)
+Removing an edge	O(1)	            O(N)
+Initializing	    O(N*N)	            O(N)
