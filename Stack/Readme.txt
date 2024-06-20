@@ -1,6 +1,7 @@
 -----------------Stack---------------------
+
 It is the linear data structure in which insertion and deletion of elements take place only from one end.
-    Example : Piles of Plate last plate will be picked first.
+    Example : In a Piles of Plate, last plate will be picked first.
 
 It can be Implemented By :
     1. Using Array

@@ -15,16 +15,16 @@ There are four pillars of Opps
 3-> Polymorphism 
     It refers to many forms.Another words its the ability of message to be displayed in different forms.
 
-    Example : When a person behaves like a student in school employee in office son/daughter at home .
+    Example : a person behaves like a student in school employee in office son/daughter at home.
 
     Types of Polymorphism
     3.1->  Compile-Time Polymorphism
            Example of this is method overloading 
-           It mean a function with same name and different parameter and return type .
+           It mean a function with same name and different parameter and return type.
 
     3.2->  Run-Time Polymorphism
            Example of this is method Overiding
-           It means a function in a parent class is tobe inherited in base class  with same name and same return type
+           It means a function in a parent class is tobe inherited in base class  with same name and same return type.
 
 4-> Inheritance
     It is the capacity of a class to derive methods and members from another class 

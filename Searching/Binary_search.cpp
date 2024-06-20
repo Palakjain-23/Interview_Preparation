@@ -1,6 +1,6 @@
 //-------Binary Search-----Recursive
 //------TC-Best-O(1)
-//------TC-Best-0(log(n))
+//------TC-Avg/Worst-0(log(n))
 //------SC-0(1)
 #include<iostream>
 using namespace std;
@@ -37,8 +37,6 @@ int binary(int *arr,int len,int key) {
   }
   return -1;
 }
-
-
 int main(){
     int key=6;
     int arr[]={1,2,3,4,5,6,7,8};

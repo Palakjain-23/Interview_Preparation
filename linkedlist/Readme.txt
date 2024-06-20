@@ -1,7 +1,7 @@
 ----------------LinkedList-----------------
 Linkedlist 
 It is a linear data structure that store data in a non contiguous format.
-It consists of node that consists of data and adress part.
+It consists of node that consists of data and address part.
 
 Features of Linkedlist
     1. Dynamic Memory Allocation

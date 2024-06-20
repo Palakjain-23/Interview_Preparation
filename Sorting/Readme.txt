@@ -1,5 +1,5 @@
 ---------Bubble Sort---------
-It this Sorting technique in which the max element in each pass comes to the last of array by swapping 
+It this Sorting technique the max element in each pass comes to the last of array by swapping 
 T.C
     Best - 0(n)
     Worst - 0(n2)
@@ -41,7 +41,7 @@ S.C - 0(n)
 Stable- retain order of same key of values
 not Inplace- space required
 
----------Quick Sort---------
+------------------Quick Sort-------------------
 
 It is also based on divide and conqueue algorithm here the element is picked as pivot and the array is partition around this element and by placing the pivot in its correct position.
 

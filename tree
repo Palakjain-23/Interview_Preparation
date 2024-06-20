@@ -1,5 +1,5 @@
-------[Trees]------
-They are the hierarchical datastructure that consists of nodes that are connect via edges. Such that their exists only one path between two nodes. 
+--------------------[Trees]---------------------
+They are the hierarchical datastructure that consists of nodes that are connected via edges. Such that their exists only one path between two nodes. 
 
 Types of Trees
     1. Binary tree
@@ -28,7 +28,7 @@ Types of Trees
 
     3. N-ary tree
         It is a tree that can have any number of child.
-        Every node contains the adress of its child and first node address is stored in root
+        Every node contains the adresses of its children and first node address is stored in root
         Number of children is known in advance 
 
 -----Avl TREE

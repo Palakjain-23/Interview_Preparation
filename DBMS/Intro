@@ -4,7 +4,7 @@
     Group of interrelated record is called dataBase.
 
 2.  DataBase Management System
-    It is a sytem software that is used to mange store and retrieve data from dataBase.It allow user to create,modify and query a database.
+    It is a sytem software that is used to manage, store and retrieve data from dataBase. It allow user to create, modify and query a database.
 
 3. Feature of DataBase Management System
    ~ Quick Access
@@ -31,6 +31,8 @@
         ~command : Commit,Rollback
 
 5.  ACID Properties
+
+    In order to maintain consistency in a database, before and after the transaction, certain properties are followed. These are called ACID properties.
 
     ~ Atomicity : It states that transaction either complete or donot complete  their is no midway.Transcation cannot occur partially.
 
