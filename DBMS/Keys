@@ -19,4 +19,4 @@
         It is defined as the set of attributes other than the Primary key.    
 
     2.4 Foreign Key
-        It act as the primary key in one table and secondary key in another table.It combines two or more tables.
+        It act as the primary key in one table and secondary key in another table. It combines two or more tables.

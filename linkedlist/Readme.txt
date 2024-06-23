@@ -6,7 +6,7 @@ It consists of node that consists of data and address part.
 Features of Linkedlist
     1. Dynamic Memory Allocation
         Memory is allocated in Runtime
-    2. Insertion and deletion is very easy since no element are to be       inserted  shifted and only links are to be updated.
+    2. Insertion and deletion is very easy since no element are to be inserted  shifted and only links are to be updated.
     3. efficient memory management
 
 Types Of Linkedlist

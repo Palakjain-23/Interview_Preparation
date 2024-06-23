@@ -6,11 +6,12 @@ There are four pillars of Opps
     It is defined as showing only the essential details and hiding implementation part.
 
     Example : While riding a car a person press start button but does not know actually how does car start after button press.
+    Smartphone users interact with a high-level interface, like tapping icons on the screen. The inner workings of the OS, hardware, and software are abstracted, offering a user-friendly experience.
 
 2-> Encapsulation   
     It is defined as wrapping up of data into single unit.
 
-    Example : Suppose in a company their are two sectors finance and sales and all data regarding them are stored into them saparatly.But if a sales person want some details of finance then they cannot directly acess them . They asked the permission from finance department officer.
+    Example : Banking System: In a banking system, customer account details like balance and account number are encapsulated within a class. External access to these attributes is limited to specific methods, ensuring data integrity.
 
 3-> Polymorphism 
     It refers to many forms.Another words its the ability of message to be displayed in different forms.
@@ -28,6 +29,8 @@ There are four pillars of Opps
 
 4-> Inheritance
     It is the capacity of a class to derive methods and members from another class 
+
+    Example : Think of it as a child inheriting genetic traits and skills from their parents.
     4-1-> Single Inheritance
     4.2-> Multiple Inheritance
     4.3-> Multilevel Inheritance

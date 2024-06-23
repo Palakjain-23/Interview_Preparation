@@ -16,14 +16,14 @@
 
     4.1 Data Definition Language
         It works on structure and schema of dataBase.
-        ~command : Create,Drop,Truncate,Alter   
+        ~command : Create,Drop,Truncate,Alter   (CDTA)
 
     4.2 Data Manipulation Language
         It works with data manipulation and inlcude 
-        ~command : select,insert,update,delete
+        ~command : select,insert,update,delete (UIDS)
 
     4.3 Data Control Language
-        It is used to grant or revoke the permissions to users in the database
+        It is used to grant or revoke the permissions to users in the database and they are used to control user privileges in db.
         ~command : Grant,Revoke
 
     4.4 Tansancation Control Language 
@@ -35,9 +35,14 @@
     In order to maintain consistency in a database, before and after the transaction, certain properties are followed. These are called ACID properties.
 
     ~ Atomicity : It states that transaction either complete or donot complete  their is no midway.Transcation cannot occur partially.
+    Example : If A wants to transfer $100 to B then first step will be deduction from A's account and then tranfer to B's account.
+    If amount is deducted from a and not received to b then in this case rollback of entire transcation happens.
 
     ~ Consistent : Data should remain consistent before and after the transaction.     
+    Example : If a is sending amount to b and c then fisrt amount deducted from a and send to b updation in account of b and similarly in c. so database should remain consistent during whole transcation.
 
     ~ Isolation : It means that multiple transactions can occur concurrently without leading to inconsistency.
+    Example :  If a two transcation is occuring concurrently in different accounts then they no changes due to parallel transactions.
 
     ~ Durability : It means that if transaction is completed and data is saved to the disk so data persists even if system failure occur.
+    Example : A sends amount to B and transaction is completed so details of this transaction persists even if system failure occurs.
