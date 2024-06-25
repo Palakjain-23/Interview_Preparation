@@ -18,7 +18,7 @@ class copies{
         *rollno=r;
   }
   copies(copies &c1){
-      this->name = c1.name;
+      name = c1.name;
       rollno = new int; 
       *rollno = *c1.rollno;
   }

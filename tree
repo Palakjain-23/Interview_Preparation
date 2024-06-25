@@ -28,7 +28,7 @@ Types of Trees
 
     3. N-ary tree
         It is a tree that can have any number of child.
-        Every node contains the adresses of its children and first node address is stored in root
+        Every node contains the adresses of its children and first node address is stored in root.
         Number of children is known in advance 
 
 -----Avl TREE

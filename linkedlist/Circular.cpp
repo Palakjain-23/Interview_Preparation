@@ -15,7 +15,8 @@ void insertBegin(node* &head,int val){
     node* n=new node(val);
     if(head==NULL){
         n->next=n;
-    }else{
+    }
+    else{
     node* temp=head;
     while(temp->next!=head){
         temp=temp->next;

@@ -11,7 +11,7 @@ class stack{
       arr=new int[size];
   }
   void push(int ele){
-      if(top>(size-1)){
+      if(top > (size-1)){
         cout<<"Overflow";
         return;
       }

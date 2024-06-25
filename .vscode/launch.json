@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Palakjain/Desktop/TCS/Opps",
-      "program": "c:/Users/Palakjain/Desktop/TCS/Opps/build/Debug/outDebug",
+      "cwd": "c:/Users/Palakjain/Desktop/Interview_Preparation/Opps",
+      "program": "c:/Users/Palakjain/Desktop/Interview_Preparation/Opps/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
