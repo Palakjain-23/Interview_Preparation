@@ -1,0 +1,18 @@
+!!!!!!!!!!! <<<<C++>>>>~~~~~~~~~~~~
+
+Namespace : It provide the space where var,function are declare or define.And it provide methods for preventing name conflict in a project
+
+Reference : It is another name given to already existing variable and any changes to it will be reflected to the variable. 
+
+Call by value : when function is passed with copy of existing variable.
+Call By reference : when function is passed with address of existing variable.
+
+Difference between structure and class is that in structure variable are public by default and in class it is private by default.
+
+Pointers are the variable that store the address of the another variable of same type.
+
+Virtual  function  : they are the member function of a class and they are to be reimplemented in derived class.They are written with virtual keyword
+
+Pure virtual function : they are the member function of class and they are to be reimplemented in derived class.they have no implementation and the class in which it exists is abstract class.
+
+Friend Function : They are the function that are not member function of a class and they can accesss public protected and private member of class and they donot require object for it invokation.  

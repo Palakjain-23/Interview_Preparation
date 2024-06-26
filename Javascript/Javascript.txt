@@ -1,0 +1,95 @@
+<<-----------Javascript----------------->>
+
+Scripting language :
+    They are language that consists of instructions written for run time environment.They are not compiled rather interpreted.
+
+Javascript
+    Scripting language and it is lightweight and cross platform
+    It is weakly typed which means the var can hold any type of value (string bool array);
+
+Data types : 
+    Primitive types : Number
+                      Boolean
+                      String
+                      Symbol (they are primitive types that return unique values)
+                    
+    Non primitive types: Array
+                         Object
+                         Function
+
+Hoisting :
+    It is behaviour of js where the declaration of var,function are moved to the top of the scope in which they are defined.
+
+Undefined and not defined
+    Undefined : It means that var is initialized but it is not assigned any value.
+    not defined : It means that var is not declared before using it.
+
+Let and Const :
+    They are block scoped variables which means they can be accessed in the scope where they are declared.
+
+First Class Function
+    the ability of passing function as a argument to another function  called first class function    
+
+Higher Order Function
+    Function that takes another function as argument(callback function) and  return a function is  known as Higher order functions.    
+
+const arr=[{name:"palak",surname:"jain",age:22},
+{name:"pratham",surname:"jain",age:21}]
+
+Map  :
+    It is used in one to one mapping with array and used when we want to apply transformation in whole array.
+    eg : const arr1 = arr.map((e)=>e.name+" "+e.surname)
+
+Filter :
+   It is used to filter out the element
+   eg: const arr2=arr.filter((e)=>e.age==22).map((e)=>e.name)
+
+Promise :
+   It is defined as the eventual completion of async operation.
+   It has 4state
+   Pending : result is undefined.
+   Fullfilled : result is a value.
+   Rejected : result is error object.
+
+   let promise = new Promise(function(resolve, reject){
+     let name="palak";
+     let name1="pratham";
+     if(name==name1){
+        resolve();
+     }else{
+        reject();
+     }
+   });
+   promise.then(funtion(){
+    console.log("success");
+   }).catch(funtion()
+   {
+    console.log("something wrong")
+   })
+
+JSON :
+    It stands for js object notation.
+    It is a format to store data and transport data.
+    We receive JSon data from web server.
+
+Cookies :
+    It is a set of info stored in users computer when a user visits a particular website so that it can remember the user info when user visits a webpage.
+
+Document :
+    It is a object that represent the whole html document.when html is loaded in browser it becomes document object.
+
+Arrow function
+    {()=>} is concise way of writing JavaScript functions in shorter way. 
+    eg.const run=()=>{console.log("run");}
+
+this
+    It represents the current scope in which a code is executing.
+    Eg. const obj1={
+        name:"palak",
+        n(){
+            console.log(`here name is $(this.name)`);
+        }
+      }
+      obj1.n();
+
+

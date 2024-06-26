@@ -1,0 +1,32 @@
+~~~~~~~~~~~~~~~~~~~~~PYTHON~~~~~~~~~~~~~~~~~~~~~~`
+ 
+Python is general purpose,High level ,interpreted and dynamically typed language.
+
+Data Types in Python :
+    : Number 
+    : String
+    :boolean
+    :list 
+    :tuple
+    :dictionary
+    :set
+
+List : the container that is used to store the value of any data type.
+
+Tuple: they are ordered and immutable collection of element . they are declared using paranthesis.
+
+Dictionary : It is unoredered collection of key-value pair .It is declared using curly braces.
+
+Set : It is unoredered collection of unique value.It is declared using curly braces.
+
+Lambda Function : it is anonymous function which is written with lambda keyword and is very consive.
+
+Sciket learn :  it is machine learning library which provides algorithm for various tasks like classification,regression.
+
+Break Statement : it is command that is used to terminate the loop execution and transfer the control to the end of loop
+
+Continue : It is used to skip the current iteration in a loop.
+
+Pass : it is a command that is used when a inst. is syntatically necessary but no code is to be executed.
+
+Module : It is file consists of python code ,functions, variables.
