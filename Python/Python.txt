@@ -1,6 +1,6 @@
 ~~~~~~~~~~~~~~~~~~~~~PYTHON~~~~~~~~~~~~~~~~~~~~~~`
  
-Python is general purpose,High level ,interpreted and dynamically typed language.
+Python is general purpose,High level,interpreted and dynamically typed language.
 
 Data Types in Python :
     : Number 
