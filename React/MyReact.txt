@@ -1,5 +1,4 @@
 <<~~~~~~~~~~~~~~ReactJS~~~~~~~~~~~~~~>>
-
     ReactJs is a Opensource Library that is used to create User Interface.It is used for making single page applications.
    
     Component are the small pieces of mangeable code.
@@ -92,3 +91,8 @@ useState Hooks
 
 usememo Hook
     It is used to memoize a value to improve the overhead of recalculating. 
+
+Redux 
+    it is library that used for state management.
+    When event occurs it dispatches a action and it will call a reducer function which will modify the slice of store(it is object that is placed in global central place )
+    and this is for writing the data for reading the data store should be subscribed to the store using selector.

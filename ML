@@ -1,0 +1,12 @@
+Machine Learning
+    It is the subset of ai its main focus is learning from data and develop algorithm that can help make predictions.
+    It is data driven approach it uses historic data to train  the model and it is used to make predictions on new data.
+
+ supervised learning
+     technique where an algorithm is trained on a labeled dataset to predict the class or category of new, unseen data.
+
+Unsupervised leaning not labeled dataset
+
+Reinforcement learning where machine learns from feedbacks
+
+AI - it is the branch of computer science that focus on creating a system that is cable of performing operation that require human intelligence.

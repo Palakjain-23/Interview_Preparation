@@ -1,10 +1,7 @@
 #include <iostream>
-
 using namespace std;
-
-class TestAbstraction {
+class TestAbstraction{ 
     private: string x, y;
-
     public:
         void set(string a, string b) {
             x = a;

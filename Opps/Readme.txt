@@ -31,6 +31,7 @@ There are four pillars of Opps
     It is the capacity of a class to derive methods and members from another class 
 
     Example : Think of it as a child inheriting genetic traits and skills from their parents.
+    
     4-1-> Single Inheritance
     4.2-> Multiple Inheritance
     4.3-> Multilevel Inheritance

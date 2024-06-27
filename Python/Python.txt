@@ -5,11 +5,11 @@ Python is general purpose,High level ,interpreted and dynamically typed language
 Data Types in Python :
     : Number 
     : String
-    :boolean
-    :list 
-    :tuple
-    :dictionary
-    :set
+    : boolean
+    : list 
+    : tuple
+    : dictionary
+    : set
 
 List : the container that is used to store the value of any data type.
 

@@ -26,7 +26,7 @@ It is a algorithm in which minimum elemnt is to be selected and placed in sorted
 
 T.C-Best/Worst-0(n2)
 
-InStable- donot retain order of same key of values
+InStable- do not retain order of same key of values
 Inplace- no space required
 
 -----------Merge Sort------------
