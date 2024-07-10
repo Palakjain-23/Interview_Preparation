@@ -84,9 +84,13 @@ useState Hooks
         function increaseCount(){
             setCount=count+1;
         }
+        function decreaseCount(){
+            setCount=count-1;
+        }
         return({
             <div>
-                <button onClick=(increseCount)>Increse</button>
+                <button onClick=(increseCount)>Increse{count}</button>
+                <button onClick=(decreaseCount)>Decrease{count}</button>
             </div>
         })
     }

@@ -56,7 +56,6 @@ public:
 class BinaryTree {
 private:
     Node* root;
-
     void traversePreorder(Node* node) {
         if (node == NULL)
             return;

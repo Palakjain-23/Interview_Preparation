@@ -27,7 +27,6 @@ class copies{
       cout<<"name : "<<name;
       cout<<endl<<"rollno : "<<*rollno;
   }
-  
 };
 int main(){
     copies c("palak",12);
