@@ -28,6 +28,5 @@ int main() {
     rectangle.setDimensions(3, 4); // Setting width and height for Rectangle
     rectangle.displayDimensions(); // Output: Width: 3 Height: 4
     cout << "Area of Rectangle: " << rectangle.calculateArea() << endl; // Output: Area of Rectangle: 12
-
     return 0;
 }

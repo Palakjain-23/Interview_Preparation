@@ -1,13 +1,13 @@
 <<~~~~~~~~~~~~~~ReactJS~~~~~~~~~~~~~~>>
     ReactJs is a Opensource Library that is used to create User Interface.It is used for making single page applications.
    
-    Component are the small pieces of mangeable code.
+    Component are the small pieces of manageable code.
 
 HTTP :
     provides a standard between a web browser and a web server to establish communication. It is a set of rules for transferring data from one computer to another.
     
 API : 
-    It is set of rules that allow a software application to communicate with another software application . It takes the request from the user and sends it to the service provider and then again sends the result generated from the service provider to the desired user. 
+   An application programming interface (API) is a way for two or more computer programs or components to communicate with each other. It takes the request from the user and sends it to the service provider and then again sends the result generated from the service provider to the desired user. 
 
 REST Api : 
    it stands for representational state transfer. it is architectural software that defines on how Api should work.And the api that follow this architecture is called restful api.
@@ -41,7 +41,7 @@ React Lifecycle
         Here instance of component is created .
         It consists of methods like componentDidMount(invoked immediate before render ), componentWillUnmount(invoved immediate after render).  
     :Updating
-        it is the stage when the  state of the component is updated. 
+        it is the stage when the state of the component is updated. 
     :UnMount 
         it is the stage when component is removed from the page.    
 
@@ -94,7 +94,7 @@ useState Hooks
             </div>
         })
     }
-    export default Increase;
+    export default Increase; 
 
 usememo Hook
     It is used to memoize a value to improve the overhead of recalculating. 
