@@ -5,7 +5,34 @@ Machine Learning
  supervised learning
      technique where an algorithm is trained on a labeled dataset to predict the class or category of new, unseen data.
 
-Unsupervised leaning not labeled dataset
+     Types of Supervised learning
+     
+     Classification : It is used to group data by predicting a categorical labels for example spam filter in email box.
+
+        Types of Classification : 
+
+            Logistic Regression : It is a classification algorithm that is used to find the probability  that a instance belongs to a particular class or not.
+
+            Decision Tree : it is machine learning algorithm that is uses decision as a feature to represent the result made by algorithm in a tree  like structure.
+
+            Random Forest ut is a machine learning algorithm that is combines the results of each decision tree before maing any prediction .
+
+            SVM : It is a machine learning  algorithm that is used to classify data in n dimentional space by drawing a hyplane that separate data            
+     
+            Naive Bayes : It is a machine learning algorithm that uses bayes theorem to classify data.It is mostly used for teext classification.
+
+            KNN algorithm : It is a machine learning algorithm that is very simple and easy and to find the new class it finds euclidean distance and find k nearest values and on the basis of voting it calculates the results.
+
+     Regression : It is used if their is some relationship between input and output data It is used to  continuous variable such as weather forcasting or market trend.
+
+     Types of Regression 
+
+            Linear Regression : It is a machine learning algorithm that is used to make linear relationship  between dependent and independent variables by fiiting linear equation.
+
+
+
+
+Unsupervised leaning it is machine learning technique in which algorithm discover patterns and discover relationship using unlabled dataset.
 
 Reinforcement learning where machine learns from feedbacks
 

@@ -17,4 +17,4 @@ Virtual  function  : they are the member function of a class and they are to be 
 
 Pure virtual function : they are the member function of class and they are to be reimplemented in derived class.they have no implementation and the class in which it exists is abstract class.
 
-Friend Function : They are the function that are not member function of a class and they can accesss public protected and private member of class and they donot require object for it invokation.  
+Friend Function : They are the function that are not member function of a class and they can accesss public protected and private member of class and they donot require object for it invocation.  

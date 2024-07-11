@@ -84,8 +84,9 @@ public:
     BinaryTree() {
         root = NULL;
     }
+":
 
-    void insert(int val) {
+   void insert(int val) {
         if (root == NULL) {
             root = new Node(val);
         } else {
