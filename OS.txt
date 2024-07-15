@@ -1,0 +1,18 @@
+OS  it is a sytem software that acts like a interface between computer software and computer hardware
+it is responsible for all the processs like memory allocation ,file tranfer ,memory management,security
+
+scheduling algorithms
+   fcfs : The process that req cpu first get the cpu first for its execution.
+   Shortest job first : the process that has shortst burst that or requires cpu for short small will get cpufirst .
+   Longest Job First(LJF)
+Longest Job First(LJF) scheduling process is just opposite of shortest job first (SJF), as the name suggests this algorithm is based upon the fact that the process with the largest burst time is processed first. Longest Job First is non-preemptive in nature.
+round robin : each process get a specified time for execution and in a cylindical way
+
+Kernel is the core and most important part of a computer operating system which provides basic services for all parts of the OS.
+
+Deadlock it is a situation when processes are blocked each process is waiting for resource and at the same time holding a resource acquired by some other process
+
+Mutual Exclusion – One or more than one resource is non-sharable (Only oneprocess can use at a time).
+2. Hold and Wait – A process is holding at least one resource and waiting forresources.
+3. No Preemption – A resource cannot be taken from a process unless the process releases the resource.
+4. Circular Wait – A set of processes are waiting for each other in circular form

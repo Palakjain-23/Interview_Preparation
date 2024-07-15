@@ -1,2 +1,10 @@
 code
-    Coding basic questions
+    OS
+    CN
+    Angular and React Difference
+    Procedural vs OPPS
+    Diffing and reconciliation
+    SQL queries ache se
+    About coforge
+    Projects
+    Python

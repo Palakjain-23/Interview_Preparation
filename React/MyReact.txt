@@ -22,13 +22,13 @@ Two Types of components are
        export default bank;
     : Function Based Component 
       function bank(){
-        return({
+        return(
             <>
             <div>
                 <h1>WElcome</h1>
             </div>
             </>
-        })
+        )
       }
 
 Bundler

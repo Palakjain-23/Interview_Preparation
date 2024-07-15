@@ -1,0 +1,24 @@
+OSI model
+
+Physical layer : it is the lowest layer in the osi model 
+                 it is responsible for actual physical connection  between thedevices it recieve data in bits form and sends data in form of signal in the receiver end.
+
+
+Data Link Layer
+ it is the layer responsible for node to node delivery of message it is responsible for error free transmission of data in the node end.
+
+Network Layer
+ it is the layer responsible for transfer of data from one host in a network to another host in a network. it is responsible for packet rounting(selecying shortest path) 
+
+Transport Layer:
+ The data in the transport layer is referred to as Segments. It is responsible for the end-to-end delivery of the complete message. 
+
+Session Layer 
+This layer is responsible for the establishment of connection, maintenance of sessions, and authentication, and also ensures security.
+
+Presentation Layer – Layer 6
+The presentation layer is also called the Translation layer. The data from the application layer is extracted here and manipulated as per the required format to transmit over the network. 
+
+application layer : it serve as window for user and application processes to access network services.
+
+ARP Address Resolution Protocol it connvect ip address to mac address.
